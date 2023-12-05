@@ -8,13 +8,13 @@
 <p role="status">Current count: @currentCount</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-<div><p>Updated version!</p></div>
+<button class="btn btn-primary" @onclick="IncrementCount">Click she</button>
 
 @code {
     private int currentCount = 0;
 
     private void IncrementCount()
     {
-        currentCount++;
+        currentCount+=3;
     }
 }
