@@ -1,0 +1,20 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>ConnectionString is! $ @_connectionStr</h1>
+
+Welcome to your new app.
+
+
+
+@code{
+    private string _connectionStr = "";
+    private const string Variable = "SQLCONNSTR_ddmcs";
+
+    protected override Task OnInitializedAsync()
+    {
+        _connectionStr = Environment.GetEnvironmentVariable(Variable)!;
+        return Task.CompletedTask;
+    }
+}
