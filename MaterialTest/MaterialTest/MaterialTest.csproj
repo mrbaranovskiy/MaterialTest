@@ -11,4 +11,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Resources\shamie.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="wwwroot\images\shamie.jpg" />
+  </ItemGroup>
+
 </Project>
