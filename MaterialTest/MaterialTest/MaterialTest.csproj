@@ -12,18 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Resources\shamie.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="wwwroot\images\shamie.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\images\shamie2.jpg" />
-    <Resource Include="wwwroot\images\shamie2.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
+    <Resource Include="wwwroot\images\shamie2.jpg" />
   </ItemGroup>
 
 </Project>
